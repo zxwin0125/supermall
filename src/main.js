@@ -8,8 +8,6 @@ import VueLazyload from "vue-lazyload";
 
 import toast from 'components/common/toast'
 
-
-
 Vue.config.productionTip = false;
 
 // 添加事件总线对象
