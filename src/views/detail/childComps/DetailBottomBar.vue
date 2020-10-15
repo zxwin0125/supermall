@@ -74,7 +74,7 @@
   }
 
   .bar-left .service {
-    background-position:0 -54px;
+    background-position:0 -53px;
   }
 
   .bar-left .shop {

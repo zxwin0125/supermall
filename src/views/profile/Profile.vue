@@ -29,7 +29,7 @@
 </template>
 
 <script>
-  import TopBar from 'components/common/topbar/TopBar.vue'
+  import TopBar from 'components/common/navbar/NavBar.vue'
   import User from './childCopms/User.vue'
   import ListView from './childCopms/ListView.vue'
   export default {

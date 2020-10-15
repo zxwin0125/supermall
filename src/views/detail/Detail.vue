@@ -16,7 +16,7 @@
     <detail-bottom-bar @addCart="addToCart"/>
 
     <back-top @click.native="backClick" v-show="isShowBackTop"/>
-<!--    <toast :message="message" :show="show"/>-->
+   <toast :message="message" :show="show"/>
   </div>
 </template>
 
