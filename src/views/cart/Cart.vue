@@ -11,7 +11,9 @@
     </scroll>
     
     <!--    底部汇总-->
-    <cart-bottom-bar />
+    <!-- <cart-bottom-bar /> -->
+    <!-- 底部支付组件 -->
+    <cart-pay></cart-pay>
   </div>
 </template>
 
@@ -20,6 +22,7 @@
   import Scroll from 'components/common/scroll/Scroll.vue'
   import CartList from "./childComps/CartList";
   import CartBottomBar from "./childComps/CartBottomBar";
+  import cartPay from "./childComps/cartPay"; //底部支付组件
 
   import { mapGetters } from 'vuex'
 
@@ -29,7 +32,8 @@
       NavBar,
       Scroll,
       CartList,
-      CartBottomBar
+      CartBottomBar,
+      cartPay
     },
     computed: {
       // 两种语法
