@@ -43,8 +43,8 @@
           text-align: center;
       }
       .right img{
-          width: 30%;
-          height: 30%;
+          width: 32%;
+          height: 32%;
           margin-top: 50%;
       }
       .phone {
@@ -60,6 +60,8 @@
           height: 10%;
       }
       .phoneD {
-          margin: 5px 0 0 -2px;
+          margin: 12px 0 0 -2px;
+          display: flex;
+          align-items: center;
       }
   </style>

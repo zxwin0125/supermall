@@ -57,7 +57,7 @@
           margin-right: -3px;
       }
       .set {
-          margin-top: 16px;
+          /* margin-top: 16px; */
       }
       .setIn {
           position: relative;
