@@ -35,7 +35,7 @@
   import Scroll from "components/common/scroll/Scroll";
   import GoodsList from "components/content/goods/GoodsList";
   // import BackTop from "components/content/backTop/BackTop";
-  // import Toast from "components/common/toast/Toast";
+  import Toast from "components/common/toast/Toast";
 
   import {getDetail, Goods, GoodsParam, Shop, getRecommend} from "network/detail";
   import {debounce} from "common/utils";
@@ -60,7 +60,7 @@
 
         Scroll,
         // BackTop
-        // Toast
+        Toast
       },
       mixins: [itemListenerMixin,backTopMixin],
       data() {
@@ -77,8 +77,8 @@
             getThemeTopY: null,
             currentIndex: 0,
             // isShowBackTop: false
-            // message: '',
-            // show: false
+            message: '',
+            show: false
         }
       },
       created() {
