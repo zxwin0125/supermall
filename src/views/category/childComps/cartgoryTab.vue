@@ -19,4 +19,5 @@ export default {
     .van-nav-bar__title{
         color: white;
     }
+    
 </style>

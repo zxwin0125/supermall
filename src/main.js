@@ -3,12 +3,21 @@ import App from './App.vue'
 import router from './router'
 import store from "./store"
 
+//引入 vant ui
+import Vant from 'vant'
+import 'vant/lib/index.css'
+
+//引入fastclick (移动端300毫秒延迟处理)
 import FastClick from 'fastclick'
+//图片懒加载 
 import VueLazyload from "vue-lazyload";
 
 import toast from 'components/common/toast'
 
 Vue.config.productionTip = false;
+
+// 使用 vant
+Vue.use(Vant)
 
 // 添加事件总线对象
 Vue.prototype.$bus = new Vue()
